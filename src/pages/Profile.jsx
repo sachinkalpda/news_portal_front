@@ -44,7 +44,7 @@ function Profile() {
     };
     fetchCategories();
     setLoader(false);
-  }, []);
+  }, [categories]);
 
 
   // function for handle adding user' s interest

@@ -52,7 +52,7 @@ export const navMenu = [
     {
         name : "world",
         icon : <AiFillHome />,
-        path : 'category//category/world'
+        path : '/category/world'
     },
     {
         name : "food",

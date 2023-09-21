@@ -21,7 +21,7 @@ export const API_URLS = {
 
   removeArticle : () => `${API_ROOT}/user/remove-article`,
 
-  searchArticle : () => `${API_ROOT}/search?keyword=${keyword}`
+  searchArticle : (keyword) => `${API_ROOT}/search?keyword=${keyword}`
   
 };
 
